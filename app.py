@@ -1,7 +1,6 @@
 import json
 import re
 from langchain.schema import AIMessage, HumanMessage
-from langchain.memory import ConversationBufferMemory
 from fastapi import FastAPI, Query, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
